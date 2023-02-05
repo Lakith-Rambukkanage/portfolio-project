@@ -14,6 +14,11 @@ import { NavSidebarComponent } from './nav-sidebar/nav-sidebar.component';
   ],
   imports: [
     CommonModule
+  ],
+  exports: [
+    NavHeaderComponent,
+    NavFooterComponent,
+    NavSidebarComponent,
   ]
 })
 export class NavCommonsModule { }
